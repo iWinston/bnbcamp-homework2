@@ -3,5 +3,10 @@
 		"ProxyAdmin": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
 		"MyContract": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0",
 		"StorageStructure": "0xCf7Ed3AccA5a467e9e704C703E8D87F634fB0Fc9"
+	},
+	"testnet": {
+		"ProxyAdmin": "0x1B4eADb2f6748668bFc145DBc3C202d0748BAaDf",
+		"MyContract": "0x75fe5Df127432248FD86375afA7C4E37D450360E",
+		"StorageStructure": "0x1593e09e35F316a59fB5Ce596d21572C1B8c24f4"
 	}
 }

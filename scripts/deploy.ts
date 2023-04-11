@@ -1,7 +1,7 @@
 import { ethers } from "hardhat";
 
 async function main() {
-  const Storage = await ethers.getContractFactory("Storage");
+  const Storage = await ethers.getContractFactory("ProxyAdmin");
   const storage = await Storage.deploy();
 
   // 等待部署完成

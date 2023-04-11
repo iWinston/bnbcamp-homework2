@@ -27,8 +27,13 @@ const config: HardhatUserConfig = {
     },
   },
   // Default network when you don't specify "--network {network_name}"
-  defaultNetwork: "hardhat",
+  defaultNetwork: "testnet",
   networks: {
+    testnet: {
+      chainId: 97,
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545",
+      accounts: process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+    },
     hardhat: {},
     localhost: {
       url: "http://localhost:8545",
